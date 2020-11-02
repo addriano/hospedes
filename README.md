@@ -1,4 +1,4 @@
-#API CHECK-IN
+# API CHECK-IN
 # Importação
 ```
 Importe o projeto para o eclipce:
@@ -13,9 +13,9 @@ src/main/resources/application.properties.
 ```
 Rum as -> Java Application.
 
-#Lincks:
+Lincks:
 
-##Crudl para Check-in:
+Crudl para Check-in:
 
 Trazer  todos os check-ins get: /api/checkin.
 Trazer check-in especifico get: /api/checkin/{id}
