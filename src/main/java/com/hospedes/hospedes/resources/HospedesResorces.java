@@ -33,7 +33,7 @@ public class HospedesResorces {
 	}
 	
 	@GetMapping("/hospedes/{campo}")
-	public List<Hospede> getHospedes(@PathVariable(value="campo") String campo) {
+	public List<Hospede> getHospedes(String campo) {
 		return hospeRepository.findByNomeDocFone(campo);
 	}
 	

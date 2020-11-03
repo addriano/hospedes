@@ -88,6 +88,7 @@ public class CheckInResorces {
 			}
 			totalDiarias += diaria;
 			checkIn.setTotalDiaria(diaria);
+			checkIn.setQtddias(dias);
 			checkIn.setTotalDiarias(totalDiarias);
 		}
 	}
